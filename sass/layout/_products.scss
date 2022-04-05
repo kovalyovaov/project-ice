@@ -1,0 +1,26 @@
+.section__subtitle {
+    margin-bottom: 15px;
+    font-family: 'Titan One';
+    @include font(400, 18px, 21px, 0.04em);
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFA5BA;
+}
+
+.section__title {
+    @include font(400, 34px, 39px, 0.04em);
+text-align: center;
+text-transform: uppercase;
+color: #D41443;
+}
+
+.product-list__title {
+    @include font(400, 20px, 23px, 0.04em);
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.product-list {
+background-color: #FFB8CA;
+}
